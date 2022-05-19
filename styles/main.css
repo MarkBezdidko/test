@@ -1,0 +1,312 @@
+body {
+		background: url("../images/bk.png");
+		background-size: 100%;
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 0;
+		padding: 0;
+}
+
+header{
+	padding: 50px;
+}
+
+.parent {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: auto;
+	text-align: center;
+}
+
+.block {
+	width: 70%;
+	max-width: 1500px;
+	height: 195%;
+	position: absolute;
+	top: 5%;
+	left: 15%;
+	background-color: rgba(211,211,211,0.8);
+	border-radius: 30px;
+	border: 2px solid black;
+}
+
+#myPhoto {
+	max-width: 300px;
+	max-height: 300px;
+	float: left;
+	padding-left: 130px;
+}
+
+#myPhoto img {
+	max-width: 100%;
+	max-height: auto;
+	border-radius: 50%;
+}
+
+#myName {
+	margin-right: 100px;
+	margin-top: 20px;
+	width: 500px;
+	float: right;
+	text-align: center;
+}
+
+#myName h1 {
+	font-size: 50px;
+	font-family: Rockletter Simple;
+	line-height: 0px;
+}
+
+#myName h3 {
+	line-height: 0px;
+	font-size: 25px;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	font-size: 20px;
+	text-align: left;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 10px;
+	letter-spacing: 1px;
+	padding: 3px 8px;
+}
+
+th {
+	width: 90px;
+}
+
+#social {
+	list-style: none;
+	margin-right: 60px;
+}
+
+#social li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+#social img {
+	height: 40px;
+}
+
+#conteiner {
+	margin-top: 280px;
+}
+
+#info {
+	width: 70%;
+	text-align: justify;
+	font-size: 23px;
+	font-family: Time Roman Italic;
+	letter-spacing: 2px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#skills {
+	font-size: 28px;
+}
+
+.wrapper__html {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+}
+
+.bar__html {
+  width: 100%;
+  height: 20px;
+  background:  blue;
+  border-radius: 25px;
+}
+
+.progress__bar__html {
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  height: 20px;
+  text-align: center;
+  background: yellow;
+  border-radius: 25px;
+}
+
+.wrapper__css {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+}
+
+.bar__css {
+  width: 100%;
+  height: 20px;
+  background:  blue;
+  border-radius: 25px;
+}
+
+.progress__bar__css {
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  height: 20px;
+  text-align: center;
+  background: yellow;
+  border-radius: 25px;
+}
+
+.wrapper__js {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+}
+
+.bar__js {
+  width: 100%;
+  height: 20px;
+  background:  blue;
+  border-radius: 25px;
+}
+
+.progress__bar__js {
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  height: 20px;
+  text-align: center;
+  background: yellow;
+  border-radius: 25px;
+}
+
+.wrapper__java {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+}
+
+.bar__java {
+  width: 100%;
+  height: 20px;
+  background:  blue;
+  border-radius: 25px;
+}
+
+.progress__bar__java {
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  height: 20px;
+  text-align: center;
+  background: yellow;
+  border-radius: 25px;
+}
+
+.wrapper__php {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+}
+
+.bar__php {
+  width: 100%;
+  height: 20px;
+  background:  blue;
+  border-radius: 25px;
+}
+
+.progress__bar__php {
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  height: 20px;
+  text-align: center;
+  background: yellow;
+  border-radius: 25px;
+}
+
+.wrapper__ps {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+}
+
+.bar__ps {
+  width: 100%;
+  height: 20px;
+  background:  blue;
+  border-radius: 25px;
+}
+
+.progress__bar__ps {
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  height: 20px;
+  text-align: center;
+  background: yellow;
+  border-radius: 25px;
+}
+
+@keyframes process {
+  0% {
+    width: 10%;
+  }
+  25% {
+    width: 25%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+#text {
+	margin-top: 5px;
+}
+
+#education {
+	font-size: 28px;
+}
+
+.fotorama {
+	text-align: center;
+	padding-left: 10%;
+}
+
+#university {
+	float: left;
+	padding-left: 10%;
+}
+
+#general {
+	text-align: left;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 0;
+	padding-top: 30px;
+
+}
+
+#description {
+	text-align: left;
+	padding-left: 50px;
+	line-height: 0;
+	font-weight: 500;
+}
