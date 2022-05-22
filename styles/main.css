@@ -410,6 +410,12 @@ th {
 	}
 }
 
+@media screen and (min-width: 630px) and (max-width: 1200px) {
+	td {
+		display: block;
+	}
+}
+
 @media screen and (max-height: 900px) {
 	.block {
 		height: 270%;
