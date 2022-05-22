@@ -414,6 +414,10 @@ th {
 	td {
 		display: block;
 	}
+	
+	body {
+		background-color: blue;
+	}
 }
 
 @media screen and (max-height: 900px) {
