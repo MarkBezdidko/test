@@ -454,6 +454,10 @@ th {
 		padding-left: 25%;
 	}
 	
+	#myName {
+		margin-right: 8%;
+	}
+	
 	#education {
 		text-align: center;
 	}
@@ -465,24 +469,27 @@ th {
 
 	#university {
 		float: left;
-		padding-left: 25%;
+		margin-left: 65px;
 	}
 
 	#general {
-		text-align: left;
+		text-align: center;
 		font-size: 25px;
 		font-weight: 700;
 		line-height: 0;
-		padding-top: 5px;
-		padding-left: 60px;
+		padding-top: 1px;
+		padding-left: 22px;
 	}
 
 	#description {
-		text-align: left;
-		padding-left: 0px;
+		text-align: center;
 		line-height: 0;
 		font-weight: 500;
 		font-size: 25px;
+	}
+	
+	.block {
+		height: 210%;
 	}
 }
 
