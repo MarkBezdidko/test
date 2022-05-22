@@ -310,3 +310,120 @@ th {
 	line-height: 0;
 	font-weight: 500;
 }
+
+@media screen and (max-width: 1920px) {
+	#info {
+		text-indent: 50px;
+	}
+	
+	.fotorama {
+		text-align: center;
+		padding-left: 5%;
+	}
+}
+
+@media screen and (max-width: 1833px) {
+	#university {
+		padding-left: 5%;
+	}
+	
+	#description {
+		text-align: left;
+		padding-left: 3;
+	}
+	
+	.fotorama {
+		text-align: center;
+		padding-left: 5%;
+	}
+	
+	.block {
+		height: 203%;
+	}
+}
+
+@media screen and (max-width: 1650px) {
+	#myPhoto {
+		padding-left: 30px;
+	}
+	
+	#myName {
+		margin-right: 50px;
+	}
+	
+	.fotorama {
+		text-align: center;
+		padding-left: 0;
+	}
+	
+	#university {
+		padding-left: 5%;
+	}
+	
+	.block {
+		height: 210%;
+	}
+}
+	
+@media screen and (max-width: 1550px) {
+	#myPhoto {
+		padding-left: 10px;
+	}
+	
+	#myName {
+		margin-right: 10px;
+	}
+	
+	td {
+		display: block;
+	}
+	
+	.fotorama {
+		text-align: center;
+		padding-left: 1%;
+	}
+
+	#university {
+		float: left;
+		padding-left: 5%;
+	}
+
+	#general {
+		text-align: left;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 0;
+		padding-top: 30px;
+
+	}
+
+	#description {
+		text-align: left;
+		padding-left: 30px;
+		line-height: 0;
+		font-weight: 500;
+		font-size: 20px;
+	}
+	
+	.block {
+		height: 220%;
+	}
+}
+
+@media screen and (max-height: 900px) {
+	.block {
+		height: 270%;
+	}
+}
+
+@media screen and (max-height: 768px) {
+	.block {
+		height: 320%;
+	}
+}
+
+
+
+
+
+}
